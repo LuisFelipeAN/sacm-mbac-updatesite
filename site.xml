@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/org.ufjf.sacm.aceditor.mbac.feature_1.0.0.202211141706.jar" id="org.ufjf.sacm.aceditor.mbac.feature" version="1.0.0.202211141706" os="linux,macosx,win32">
-      <category name="mbac"/>
+   <feature url="features/org.ufjf.sacm.aceditor.mbac.feature_1.0.0.202211141811.jar" id="org.ufjf.sacm.aceditor.mbac.feature" version="1.0.0.202211141811" os="linux,macosx,win32">
+      <category name="org.ufjf.sacm.mbac"/>
    </feature>
-   <category-def name="mbac" label="MBAC"/>
+   <feature url="features/org.ufjf.sacm.aceditor.editor_1.0.0.202211141811.jar" id="org.ufjf.sacm.aceditor.editor" version="1.0.0.202211141811" os="linux,macosx,win32">
+      <category name="org.ufjf.sacm.aceditor"/>
+   </feature>
+   <feature url="features/org.ufjf.sacm.aceditor.implementation.constraint.gsn_1.0.0.202211141811.jar" id="org.ufjf.sacm.aceditor.implementation.constraint.gsn" version="1.0.0.202211141811">
+      <category name="org.ufjf.sacm.aceditor"/>
+   </feature>
+   <category-def name="org.ufjf.sacm.mbac" label="MBAC"/>
+   <category-def name="org.ufjf.sacm.aceditor" label="SACM ACEditor"/>
 </site>
