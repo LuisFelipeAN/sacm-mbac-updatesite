@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/org.ufjf.sacm.aceditor.editor_1.0.0.202211141936.jar" id="org.ufjf.sacm.aceditor.editor" version="1.0.0.202211141936">
-      <category name="org.ufjf.sacm.aceditor"/>
+   <feature url="features/org.ufjf.sacm.aceditor.mbac.feature_1.0.0.202211142012.jar" id="org.ufjf.sacm.aceditor.mbac.feature" version="1.0.0.202211142012">
+      <category name="org.ufjf.sacm.aceditor.mbac"/>
    </feature>
-   <feature url="features/org.ufjf.sacm.aceditor.implementation.constraint.gsn_1.0.0.202211141936.jar" id="org.ufjf.sacm.aceditor.implementation.constraint.gsn" version="1.0.0.202211141936">
+   <feature url="features/org.ufjf.sacm.aceditor.implementation.constraint.gsn_1.0.0.202211142012.jar" id="org.ufjf.sacm.aceditor.implementation.constraint.gsn" version="1.0.0.202211142012">
       <category name="org.ufjf.sacm.aceditor.implementation.constraints.extensions"/>
    </feature>
-   <category-def name="org.ufjf.sacm.aceditor" label="Editor"/>
-   <category-def name="org.ufjf.sacm.aceditor.implementation.constraints.extensions" label="Implementation Constraint Extensions"/>
+   <feature url="features/org.ufjf.sacm.aceditor.editor_1.0.0.202211142012.jar" id="org.ufjf.sacm.aceditor.editor" version="1.0.0.202211142012">
+      <category name="org.ufjf.sacm.aceditor"/>
+   </feature>
+   <category-def name="org.ufjf.sacm.aceditor" label="ACEditor"/>
+   <category-def name="org.ufjf.sacm.aceditor.implementation.constraints.extensions" label="GSN Extensions"/>
+   <category-def name="org.ufjf.sacm.aceditor.mbac" label="MBAC"/>
 </site>
