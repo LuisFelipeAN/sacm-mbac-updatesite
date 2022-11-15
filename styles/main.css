@@ -7,14 +7,37 @@ body{
     align-items: center;
 }
 
-section{
+section, main{
     background-color: #d7f5fe;
     width: 80%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 1rem;
     border-radius: 0.7rem;
 }
+section{
+    margin-top: 1.5rem;
+}
 
-section h1{
+main h1{
     text-align: center;
+}
+
+.list-images{
+    display: flex;
+    flex-direction: column;
+}
+
+.list-images li{
+    cursor: pointer;
+}
+li p{
+    margin: 0;
+}
+.list-images img{
+    height: 10%;
+    width: 30%;
+    display: none;
+}
+.list-images li:hover img,.list-images li:focus img{
+    display: block;
 }
