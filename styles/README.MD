@@ -1,0 +1,4 @@
+# SACM ACEditor
+
+An OMG standard compliant model-based tool that supports the specification of Assurance Cases for Safety-Critical Systems. This tool comprises a graphical editor that supports the specification of assurance case in compliance with OMG Structured Assurance Case Metamodel (SACM) [version 2.2](https://www.omg.org/spec/SACM/2.2/About-SACM/). 
+The Eclipse update site for the latest version of the SACM ACEditor including the GSN constraints extensions and MBAC Instantiation can be found [here](https://master.d52pu3gfwomel.amplifyapp.com/site.xml). For the instalation due to dependencies issues we recomend the [Eclipse Epsilon](https://www.eclipse.org/epsilon/).
