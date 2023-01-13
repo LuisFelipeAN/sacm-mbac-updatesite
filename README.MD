@@ -5,7 +5,8 @@ An OMG standard compliant model-based tool that supports the specification of As
 The Eclipse update site for the latest version of the SACM ACEditor including the GSN constraints extensions and MBAC Instantiation can be found [here](https://master.d52pu3gfwomel.amplifyapp.com/site.xml). For the instalation due to dependencies issues we recomend the [Eclipse Epsilon](https://www.eclipse.org/epsilon/).
 
 ## Examples 
-The models with some examples can be download from [here](https://master.d52pu3gfwomel.amplifyapp.com/files/workspace.zip).
+The models with some examples can be downloaded from [here](https://master.d52pu3gfwomel.amplifyapp.com/files/workspace.zip).
+A short video can be downloaded from [here](https://master.d52pu3gfwomel.amplifyapp.com/files/demostrative-video.webm).
 
 ## Tutorial and Usage
 After installing the plugins in your Eclipse IDE open the workspace and import the projects.
